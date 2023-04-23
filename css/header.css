@@ -1,0 +1,112 @@
+.cabecalho {
+    background-color: var(--black);
+    height: 4rem;
+}
+
+
+.cabecalho__container {
+    display: flex;
+    width: 100%;
+    column-gap: 3rem;
+    margin: auto 0;
+    height: 100%;
+}
+
+.cabecalho__logo {
+    color: var(--branco);
+    align-self: center;
+    font-family: var(--font-nomePage);
+    font-size: 32px;
+    text-decoration: underline wavy rgb(4, 0, 255) 2px;
+}
+
+.cabecalho__links {
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: initial;
+}
+
+.cabecalho__link__ajuda {
+    font-weight: 600;
+    height: 100%;
+    padding: 0 1rem;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.cabecalho__link__ajuda:hover {
+    background-color: var(--cinza-claro);
+    cursor: pointer;
+}
+
+.links__box {
+    display: flex;
+    white-space: nowrap;
+    height: 100%;
+    align-items: center;
+}
+
+.links__vendas, .links__carrinho {
+    padding: 0 1rem;
+    font-weight: 600;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.links__vendas:hover, .links__carrinho:hover {
+    background-color: var(--cinza-claro);
+    cursor: pointer;
+}
+
+.idioma {
+    background-color: rgba(46, 46, 46, 0.473);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0 1rem;
+}
+
+.links__login {
+    font-weight: 600;
+    background-color: var(--verde);
+    padding: .5rem 1.5rem;
+    gap: .5rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.menu__hamburguer {
+    display: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .cabecalho__container {
+        justify-content: space-between;
+    }
+    
+    .cabecalho__links {
+        display: none;
+    }
+    
+    .menu__hamburguer {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        justify-content: center;
+    }
+    
+    .linha {
+        width: 22px;
+        height: 1px;
+        background-color: var(--branco);
+    }
+}
+

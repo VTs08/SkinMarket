@@ -1,0 +1,45 @@
+@import url(./css/header.css);
+
+:root {
+    --font-principal: 'Raleway', sans-serif;
+    --font-nomePage: 'Sedgwick Ave Display', cursive;
+    --black: #000000;
+    --branco: #FFFFFF;
+    --preto-claro: #111111;
+    --cinza-escuro: #242424;
+    --cinza-claro: #363636;
+    --azul: #598DEC;
+    --verde: #7EA64B;
+}
+
+body {
+    font-family: var(--font-principal);
+    
+}
+
+* {
+    color: var(--branco);
+    text-decoration: none;
+    font-size: 16px;
+    box-sizing:content-box;
+}
+
+.container {
+    width: 96%;
+    margin: 0 auto;
+}
+
+ul {
+    display: none;
+}
+
+/* BANNER */
+
+.banner {
+    height: 100%;
+    height: 400px;
+    background: url(./img/skins/ak47.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+}
