@@ -66,7 +66,7 @@
 }
 
 .idioma {
-    background-color: rgba(46, 46, 46, 0.473);
+    background-color: var(--cinza-escuro);
     padding: .5rem 1rem;
     border-radius: 5px;
     border: none;
@@ -81,6 +81,11 @@
     border-radius: 5px;
     display: flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.links__login:hover {
+    background-color: #89b452;
 }
 
 .menu__hamburguer {
