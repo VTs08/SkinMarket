@@ -1,14 +1,18 @@
 @import url(./css/header.css);
 @import url(./css/navegacao.css);
+@import url(./css/main.css);
 
 :root {
     --font-principal: 'Raleway', sans-serif;
     --font-nomePage: 'Sedgwick Ave Display', cursive;
+    --font-preco: Arial, Helvetica, sans-serif;
     --black: #000000;
     --branco: #FFFFFF;
+    --cor-preco: #cccccc;
     --preto-claro: #111111;
     --cinza-escuro: #242424;
     --cinza-claro: #363636;
+    --cinza-texto: #606060;
     --azul: #598DEC;
     --verde: #7EA64B;
 }
